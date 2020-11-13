@@ -7,7 +7,7 @@ const ThemeContainer: React.FC = ({ children }) => {
   return (
     <ChakraThemeProvider theme={theme}>
       <ColorModeProvider value="dark">
-        <EmotionThemeProvider theme={{}}>
+        <EmotionThemeProvider theme={theme}>
           <CSSReset />
           {children}
         </EmotionThemeProvider>
