@@ -2,7 +2,7 @@ import React from 'react';
 import {Divider as ChakraDivider, Grid} from '@chakra-ui/core';
 
 
-const Divider: React.FC = () => {
+const DividerCustom: React.FC = () => {
   return (
     <Grid
       templateColumns="1fr 1fr"
@@ -16,4 +16,4 @@ const Divider: React.FC = () => {
   );
 }
 
-export default Divider;
+export default DividerCustom;

@@ -2,16 +2,17 @@ import { theme, DefaultTheme } from '@chakra-ui/core';
 
 const customTheme: DefaultTheme = {
  ...theme,
+ breakpoints: [],
  fonts: {
-   body: 'Roboto, system-ui, sans-serif',
-   heading: 'Roboto, system-ui, sans-serif',
+   body: 'inter, system-ui, sans-serif',
+   heading: 'inter, system-ui, sans-serif',
    mono: 'Menlo, monospace'
 },
    fontWeights: {
      ...theme.fontWeights,
-     normal: 400,
+     normal: 500,
      medium: 600,
-     bold: 700,
+     bold: 900,
    },
    radii: {
      ...theme.radii,
@@ -32,10 +33,14 @@ const customTheme: DefaultTheme = {
      },
      gray: { 
       ...theme.colors.gray,
-      300: '#e1e1e6',
-      600: '#29292e',
-      700: '#202024',
+      300: '#4E4E4E',
+      600: '#393939',
+      700: '#222222',
       800: '#121214',
+    },
+    blue: {
+      ...theme.colors.blue,
+      300: '#19B5FE',
     },
 
    }
