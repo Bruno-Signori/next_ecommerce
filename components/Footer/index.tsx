@@ -18,7 +18,7 @@ const MyFooter: React.FC = ()  => {
 
       
     </Box>
-    <Box w="100%" >
+    <Box w={{}} >
     <Text marginTop="16px" fontWeight="bold" >SHOWROOMS</Text>
       <Text fontSize="12px" marginTop="8px">Showroom Washington, DC</Text>
       <Text fontSize="12px" marginTop="8px">Showroom New York City</Text>

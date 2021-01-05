@@ -27,10 +27,10 @@ export const BoxMouse: React.FC = () => {
  
 >
       
-  <Image size="230px" borderBottom="2px solid gray.900" position="relative" top="-80px" zIndex={9999}  src="/mouse-01.png" alt='rock' />
+  <Image size="230px" borderBottom="2px solid gray.900" position="relative" top="-80px" zIndex={9999}  src="/gaming.png" alt='rock' />
   </motion.div>
 
-     <Text position="relative"  textAlign="center"  > 
+  <Text fontWeight="600" fontSize="20px" textAlign="center"  > 
        Gaming
      </Text>
      </Box>
@@ -53,10 +53,10 @@ export const BoxMouse: React.FC = () => {
  
 >
       
-  <Image  size="230px" position="relative" top="-80px" zIndex={9999}  src="/mouse-01.png" alt='rock' />
+  <Image  size="230px" position="relative" top="-80px" zIndex={9999}  src="/design.png" alt='rock' />
   </motion.div>
 
-     <Text position="relative"  textAlign="center"  > 
+  <Text fontWeight="600" fontSize="20px" textAlign="center"  > 
        Graphic Design
      </Text>
      </Box>
@@ -82,10 +82,10 @@ export const BoxMouse: React.FC = () => {
  
 >
       
-      <Image size="230px" position="relative" top="-80px" zIndex={9999} shadow={{color:'blue.400'}} src="/mouse-01.png" alt='rock' />
+      <Image size="230px" position="relative" top="-80px"  src="/office.png" alt='rock' />
   </motion.div>
 
-     <Text position="relative"  textAlign="center"  > 
+     <Text fontWeight="600" fontSize="20px" textAlign="center"  > 
        Office & others
      </Text>
      </Box>

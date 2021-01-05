@@ -15,9 +15,9 @@ const BoxMediaContacts: React.FC = () => {
         
       >
         <Box >
-   <Image  color="blue.300" src="/rocketseat.svg" alt='rock' />
-   </Box>
-   <SimpleGrid>
+        <Image  color="blue.300" src="/rocketseat.svg" alt='rock' />
+        </Box>
+        <SimpleGrid>
         <Text marginTop="14px" marginBottom="8px" fontWeight="bold">Direct Channels</Text>
         <Flex marginTop="10px">
         <Box color="blue.300" as={FiPhone} size="25px" ></Box>

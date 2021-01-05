@@ -1,7 +1,11 @@
 import React from  'react';
 
-import {Box, Link, Image, Button} from '@chakra-ui/core';
+import {Box, Link, Image, Button, Flex} from '@chakra-ui/core';
 import {motion} from "framer-motion";
+
+
+// First, create an alias for breakpoints
+const breakpoints = ["30em", "48em", "62em", "80em"];
 
 const MyHeader: React.FC = () => {
   return (
@@ -10,8 +14,8 @@ const MyHeader: React.FC = () => {
     animate={{ opacity: 1 }}
     transition={{ duration: 1.1 }}
     >
-    <Box  d="flex" paddingRight={80} alignItems="center" justifyContent="space-between" w="100%" p={6} >
-     <Box>
+    <Flex paddingRight={80} justifyContent="space-between" w="100%" p={6} >
+     <Box  >
      <Image src="/rocketseat.svg" alt='rock' />
      </Box>
   
@@ -22,12 +26,12 @@ const MyHeader: React.FC = () => {
      transition={{ duration: 2.2 }}
      >
     
-    <Box w="100%" >
-
+    <Box >
                 <Link 
+                display={{ md: "block", sm: 'hidden' }}
                 href="/" 
                 textDecor="none"
-                  paddingBottom={4}
+                paddingBottom={4}
                 border="none" 
                 fontWeight="bold"
                 borderBottom="3px solid"
@@ -75,7 +79,7 @@ const MyHeader: React.FC = () => {
 
       </motion.div>
     
-      </Box>
+      </Flex>
   </motion.div>
     
    
