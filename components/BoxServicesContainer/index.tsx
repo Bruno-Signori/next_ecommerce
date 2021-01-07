@@ -1,7 +1,5 @@
 import React from  'react';
-import {Box, Button, Flex, Grid, Heading, Input, Link, Text, Image  , SimpleGrid} from '@chakra-ui/core'
-import { motion } from 'framer-motion'
-import { FcAbout, FcEnteringHeavenAlive, FcGrid, FcMindMap, FcPhoneAndroid, FcSurvey } from "react-icons/fc";
+import {Box, Flex, Text, Image, SimpleGrid} from '@chakra-ui/core'
 
 // <Image size="150px" position="relative" top="-40px" float='left' src="/shield.png" alt='rock' />
 export const BoxServicesContainer: React.FC = () => {
